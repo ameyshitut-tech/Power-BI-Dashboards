@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f8fafc; /* clean white background */
+      color: #0f172a;
+      text-align: center;
+    }
+
+    header {
+      padding: 30px 20px;
+      background: #020617;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #38bdf8;
+    }
+
+    header p {
+      color: #e2e8f0;
+      margin-top: 10px;
+    }
+
+    .projects {
+      margin-top: 60px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      margin: 20px auto;
+      width: 320px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+      border: 1px solid #e2e8f0;
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.03);
+      box-shadow: 0 20px 40px rgba(56,189,248,0.3);
+      border-color: #38bdf8;
+    }
+
+    h2 {
+      color: #0f172a;
+    }
+
+    p {
+      color: black;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+      color: white;
+      border-radius: 12px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: linear-gradient(135deg, #0ea5e9, #38bdf8);
+      box-shadow: 0 0 12px rgba(56,189,248,0.6);
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Power BI Projects</h1>
+  <p>Created by Amey Shitut</p>
+</header>   
+
+<div class="projects">
+  <div class="card">
+    <h2>Olympic History Dashboard</h2>
+    <p>
+      An interactive Power BI dashboard that analyzes 120 years of Olympic history, highlighting athlete trends, gender distribution, and country-wise medal performance.
+    </p>
+    <a href="olympic.html" class="btn">View Project</a>
+  </div>
+</div>
+
+</body>
+</html>
