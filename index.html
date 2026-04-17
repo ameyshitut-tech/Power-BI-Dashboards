@@ -9,7 +9,7 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: #f8fafc; /* clean white background */
+      background: #f8fafc;
       color: #0f172a;
       text-align: center;
     }
@@ -30,14 +30,18 @@
       margin-top: 10px;
     }
 
+    /* ✅ UPDATED SECTION */
     .projects {
       margin-top: 60px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap; /* makes it responsive */
     }
 
     .card {
       background: white;
       padding: 25px;
-      margin: 20px auto;
       width: 320px;
       border-radius: 20px;
       box-shadow: 0 10px 25px rgba(0,0,0,0.1);
@@ -81,6 +85,7 @@
 
   </style>
 </head>
+
 <body>
 
 <header>
@@ -89,6 +94,7 @@
 </header>   
 
 <div class="projects">
+
   <div class="card">
     <h2>Olympic History Dashboard</h2>
     <p>
@@ -96,6 +102,15 @@
     </p>
     <a href="olympic.html" class="btn">View Project</a>
   </div>
+
+  <div class="card">
+    <h2>Road Accident Dashboard</h2>
+    <p>
+      Interactive dashboard providing a comprehensive analysis of Indian road accidents, covering total and severity metrics, causes, city and state distribution, road types, weather conditions, and risk scores to identify patterns and high-risk areas for better safety decisions.
+    </p>
+    <a href="road_accident.html" class="btn">View Project</a>
+  </div>
+
 </div>
 
 </body>
